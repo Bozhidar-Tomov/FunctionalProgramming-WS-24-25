@@ -12,7 +12,9 @@
         (helper (+ acc 1) (cdr l))))
   (helper 0 l))
 
-(len (list 5 6 4 7))
-(len_ (list 5 6 4 7))
+;(len (list 5 6 4 7))
+;(len_ (list 5 6 4 7))
+
+(provide len)
 
 ;OK

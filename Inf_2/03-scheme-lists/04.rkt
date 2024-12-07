@@ -9,7 +9,8 @@
             (helper (+ i 1) (cdr l)))))
   (helper 0 l))
 
-(at 1 (list 0 20 30 40))
-(at 10 (list 1 2 3 4))
+;(at 1 (list 0 20 30 40))
+;(at 10 (list 1 2 3 4))
+(provide at)
 
 ;OK

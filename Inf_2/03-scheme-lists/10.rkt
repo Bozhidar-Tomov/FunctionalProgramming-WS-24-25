@@ -7,6 +7,7 @@
           (cons (car l) (my-filter p (cdr l)))
           (my-filter p (cdr l)))))
 
-(my-filter even? '(1 2 3 4 5 6))
+(provide my-filter)
 
+; (my-filter even? '(1 2 3 4 5 6))
 ;OK

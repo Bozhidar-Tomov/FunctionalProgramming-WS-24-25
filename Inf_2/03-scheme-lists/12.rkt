@@ -4,6 +4,7 @@
 (define (sum l)
   (foldr_ l + 0))
 
-(sum '(12 45 32))
+(provide sum)
 
+;(sum '(12 45 32))
 ;OK
